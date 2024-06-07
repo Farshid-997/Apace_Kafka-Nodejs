@@ -1,11 +1,11 @@
 # first run zooker image with docker in the port 2181
 
-## docker run -p 2181:2181 zookeeper
+### docker run -p 2181:2181 zookeeper
 
 
 # run kafka with port 9092
 
-## docker run -p 9092:9092 -e KAFKA_ZOOKEEPER_CONNECT=192.168.0.8:2181 -e KAFKA_ADVERTISED_LISTENERS=PLAINTEXT://192.168.0.8:9092 -e KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR=1 confluentinc/cp-kafka
+### docker run -p 9092:9092 -e KAFKA_ZOOKEEPER_CONNECT=192.168.0.8:2181 -e KAFKA_ADVERTISED_LISTENERS=PLAINTEXT://192.168.0.8:9092 -e KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR=1 confluentinc/cp-kafka
 
 # 3 parts 
 
