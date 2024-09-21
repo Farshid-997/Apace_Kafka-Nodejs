@@ -1,4 +1,4 @@
-# first run zooker image with dockeeper in the port 2181
+# first run zookeeper image with dockeeper in the port 2181
 
 ### docker run -p 2181:2181 zookeeper
 
